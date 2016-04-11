@@ -301,7 +301,7 @@ function run(){
             
         case (/^tra lef$/i).test(sValue) :
             
-            if(blockState.xIndex == 1 && blockState.direction == "left"){
+            if(blockState.xIndex == 1){
                 
                 runFai(sValue);
                 
@@ -319,7 +319,7 @@ function run(){
             
         case (/^tra top$/i).test(sValue) :
             
-            if(blockState.yIndex == 1 && blockState.direction == "top"){
+            if(blockState.yIndex == 1){
                 
                 runFai(sValue);
                 
@@ -337,7 +337,7 @@ function run(){
             
         case (/^tra rig$/i).test(sValue) :
             
-            if(blockState.xIndex == 10 && blockState.direction == "right"){
+            if(blockState.xIndex == 10){
                 
                 runFai(sValue);
                 
@@ -355,7 +355,7 @@ function run(){
             
         case (/^tra bot$/i).test(sValue) :
             
-            if(blockState.yIndex == 10 && blockState.direction == "bottom"){
+            if(blockState.yIndex == 10){
                 
                 runFai(sValue);
                 
@@ -373,7 +373,7 @@ function run(){
             
         case (/^mov lef$/i).test(sValue) :
             
-            if(blockState.xIndex == 1 && blockState.direction == "left"){
+            if(blockState.xIndex == 1){
                 
                 runFai(sValue);
                 
@@ -391,7 +391,7 @@ function run(){
             
         case (/^mov top$/i).test(sValue) :
             
-            if(blockState.yIndex == 1 && blockState.direction == "top"){
+            if(blockState.yIndex == 1){
                 
                 runFai(sValue);
                 
@@ -409,7 +409,7 @@ function run(){
             
         case (/^mov rig$/i).test(sValue) :
             
-            if(blockState.xIndex == 10 && blockState.direction == "right"){
+            if(blockState.xIndex == 10){
                 
                 runFai(sValue);
                 
@@ -427,7 +427,7 @@ function run(){
             
         case (/^mov bot$/i).test(sValue) :
             
-            if(blockState.yIndex == 10 && blockState.direction == "bottom"){
+            if(blockState.yIndex == 10){
                 
                 runFai(sValue);
                 
